@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*mobile style */
+@media only screen and (max-width:800px) {}
+
+
+.navbar-nav {
+    background-color: transparent;
+    justify-content: end;
+    flex-direction: row;
+    gap: 2%;
+    margin-top: 10px;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #595959;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(89, 89, 89, 0.5), rgba(145, 145, 145, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(89, 89, 89, 0.5), rgba(145, 145, 145, 0.5))
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(117, 117, 117, 0.4);
+}
+
+
+body {
+
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+
+
+body::-webkit-scrollbar {
+    -webkit-overflow-scrolling: auto;
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+
+
+.content{
+    padding: 25px;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    float: left;
+}
+
+#contact-form ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#contact-form li{
+    padding: 10px 0;
+    width: 50%;
+    float: left;
+    
+
+}
+
+#contact-form ul li.three, contact-form ul li.four{
+    float: none;
+    clear: left;
+    width: 100%;
+}
+#contact-form ul li.one{
+    margin-right: 1%;
+}
+
+#contact-form ul li .four{
+    padding: 20px 0;
+    text-align: center;
+}
+
+#contact-form ul li label{
+    display: block;
+    padding-bottom: 5px;
+    width: 50%;
+}
+
+#contact-form ul li{
+    
+    float: left;
+}
+
+#contact-form ul li.text{
+    padding: 10px;
+    width: 100%;
+    
+}
+#contact-form ul li textarea{
+    padding: 10px;
+    width: 50%;
+    height: 100px;
+    
+}
+
+.content{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fbfbfb;
+}
+
+.info{
+    margin-top: 15px;
+    margin-left: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fbfbfb;
+    font-size: 20px;
+}
